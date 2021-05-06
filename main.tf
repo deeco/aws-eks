@@ -1,5 +1,4 @@
 # EKS Terraform module
-
 module "eks" {
   source                   = "./modules/eks"
   aws-region               = var.aws-region
